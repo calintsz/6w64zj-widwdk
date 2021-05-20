@@ -50,6 +50,7 @@
 <script>
 import { GanttDataSource, GanttDependencyDataSource } from '@progress/kendo-datasource-vue-wrapper';
 import { Gantt, GanttColumn, GanttView} from '@progress/kendo-gantt-vue-wrapper';
+import NanumSquareRoundR from "./NanumSquareRoundR.ttf";  
 
 export default {
     name: 'App',
@@ -95,10 +96,6 @@ export default {
     },
     created: function() {
       kendo.culture('ko-KR')
-
-      // kendo.pdf.defineFont({
-      //   "DejaVu Sans":"DejaVu Sans"
-      //     })
     },
 }
 </script>
@@ -112,7 +109,7 @@ export default {
           The standard PDF fonts do not support Unicode characters.
       */
 div {
-  font-family: "NanumSquareRound", "NanumSquare", "Noto Sans KR", "DejaVu Sans",
+  font-family: "DejaVu Sans",
     "Arial", sans-serif !important;
   font-size: 12px;
 }
