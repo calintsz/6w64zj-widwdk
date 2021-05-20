@@ -51,6 +51,7 @@
 import { GanttDataSource, GanttDependencyDataSource } from '@progress/kendo-datasource-vue-wrapper';
 import { Gantt, GanttColumn, GanttView} from '@progress/kendo-gantt-vue-wrapper';
 import NanumSquareRoundR from "./NanumSquareRoundR.ttf";  
+import kendo from '@progress/kendo-ui'
 
 export default {
     name: 'App',
